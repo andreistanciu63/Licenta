@@ -1,0 +1,27 @@
+<div>
+    <div>
+        <div>
+            <h3>Account Register
+            </h3>
+            <form action="/users/register" method="post">
+                <div>
+                    <label for="name">name</label>
+                    <input type="text" name="name" value="{{name}}" required>   
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" value="{{email}}" required>   
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input type="password" name="password" value="{{password}}" required>   
+                </div>
+                <div>
+                    <label for="password2">Confirm password</label>
+                    <input type="password" name="password2" value="{{password2}}" required>   
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
